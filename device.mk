@@ -44,5 +44,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service.xiaomi_sm6150
+
 # Inherit from proprietary files
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
