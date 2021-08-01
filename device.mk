@@ -24,6 +24,10 @@ TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
