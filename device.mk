@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
 
 # Charger
 PRODUCT_PACKAGES += \
+    charger_res_images \
     libsuspend
 
 # DRM
