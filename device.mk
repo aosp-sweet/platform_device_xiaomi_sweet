@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
 
 # Init scripts
 PRODUCT_PACKAGES += \
+    init.qcom.early_boot.sh \
     init.qti.dcvs.sh
 
 PRODUCT_PACKAGES += \
