@@ -58,6 +58,21 @@
         orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="rounded_corner_radius_bottom">90.0px</dimen>
 
+    <!-- An array of arrays of side fingerprint sensor properties relative to 
+         each display.
+         Note: this value is temporary and is expected to be queried 
+         directly from the HAL in the future. -->
+    <array name="config_sfps_sensor_props" translatable="false"> 
+        <item>@array/config_sfps_sensor_props_0</item>
+    </array>
+
+    <array name="config_sfps_sensor_props_0" translatable="false"> 
+        <item>local:4630946480857061761</item>
+        <item>1080</item>
+        <item>910</item>
+        <item>150</item>
+    </array>
+
     <!-- The default refresh rate for a given device. Change this value to set a higher default
          refresh rate. If the hardware composer on the device supports display modes with a higher
          refresh rate than the default value specified here, the framework may use those higher
