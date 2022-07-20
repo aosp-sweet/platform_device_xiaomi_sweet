@@ -717,7 +717,7 @@ vendor/firmware/ipa_fws.mdt
 
 # IRQ balance
 vendor/bin/msm_irqbalance
-vendor/etc/msm_irqbalance.conf
+vendor/etc/msm_irqbalance.conf|f62d3047032dd76473ed8293c4b056c0d36db08d
 
 # Keymaster - from mojito MIUI V13.0.4.0 SKGMIXM
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|0e0aa56f9ad9b1832eeb39db82eed1f021d7e244
