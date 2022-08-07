@@ -118,7 +118,6 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
 # Display
 PRODUCT_PACKAGES += \
-    libsdmcore-shim \
     disable_configstore
 
 PRODUCT_COPY_FILES += \
