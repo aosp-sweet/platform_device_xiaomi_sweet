@@ -130,7 +130,7 @@ persist.vendor.dpm.nsrm.bkg.evt=3955
 persist.vendor.dpmhalservice.enable=1
 
 # Display
-debug.sf.disable_backpressure=1
+debug.sf.disable_backpressure=0
 debug.sf.enable_gl_backpressure=1
 ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg 
