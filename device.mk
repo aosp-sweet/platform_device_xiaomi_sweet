@@ -224,7 +224,8 @@ PRODUCT_PACKAGES += \
     AOSPASweetFrameworks \
     SweetFrameworks \
     SweetSettings \
-    SweetSystemUI
+    SweetSystemUI \
+    SweetWifiOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
