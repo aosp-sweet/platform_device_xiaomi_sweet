@@ -37,7 +37,8 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh
 
 PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc
+    init.recovery.qcom.rc \
+    init.target.rc
 
 # Lights
 PRODUCT_PACKAGES += \

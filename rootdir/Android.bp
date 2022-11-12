@@ -11,3 +11,10 @@ sh_binary {
     src: "bin/init.qti.dcvs.sh",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "init.target.rc",
+    src: "etc/init.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
