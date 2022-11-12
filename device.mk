@@ -34,6 +34,9 @@ PRODUCT_COPY_FILES += \
 
 # Init scripts
 PRODUCT_PACKAGES += \
+    init.qti.dcvs.sh
+
+PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
 
 # Lights
