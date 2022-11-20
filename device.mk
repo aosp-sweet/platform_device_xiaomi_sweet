@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh
 
 PRODUCT_PACKAGES += \
+    init.qcom.power.rc \
     init.recovery.qcom.rc \
     init.target.rc
 
