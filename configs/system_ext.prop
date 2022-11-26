@@ -1,2 +1,6 @@
 # CNE
 persist.vendor.cne.feature=1
+
+# ParanoidDoze
+ro.sensor.pickup=xiaomi.sensor.pickup
+ro.sensor.proximity=true

@@ -259,6 +259,10 @@ PRODUCT_PACKAGES += \
     SweetSystemUI \
     SweetWifiOverlay
 
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
