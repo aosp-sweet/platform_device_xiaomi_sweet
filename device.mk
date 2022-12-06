@@ -99,5 +99,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
+# Vendor service manager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # Inherit from proprietary files
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
