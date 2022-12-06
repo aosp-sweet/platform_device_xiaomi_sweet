@@ -1,6 +1,6 @@
 #! /vendor/bin/sh
 
-# Copyright (c) 2012-2013, 2016-2019,2020, The Linux Foundation. All rights reserved.
+# Copyright (c) 2012-2013, 2016-2019, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -101,13 +101,22 @@ case "$soc_id" in
 
     # configure governor settings for little cluster
     echo "schedutil" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-    echo 500 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/up_rate_limit_us
-    echo 20000 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/down_rate_limit_us
+    echo 0 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/up_rate_limit_us
+    echo 0 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/down_rate_limit_us
+    echo 1209600 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_freq
+    echo 576000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+    echo 1 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/pl
 
     # configure governor settings for big cluster
     echo "schedutil" > /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor
-    echo 500 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/up_rate_limit_us
-    echo 20000 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/down_rate_limit_us
+    echo 0 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/up_rate_limit_us
+    echo 0 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/down_rate_limit_us
+    echo 1209600 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/hispeed_freq
+    echo 768000 > /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq
+    echo 1 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/pl
+
+    echo "0:1209600" > /sys/module/cpu_boost/parameters/input_boost_freq
+    echo 100 > /sys/module/cpu_boost/parameters/input_boost_ms
 
     # Configure default schedTune value for foreground/top-app
     echo 1 > /dev/stune/foreground/schedtune.prefer_idle
@@ -175,13 +184,6 @@ case "$soc_id" in
         done
     done
 
-    # cpuset parameters
-    echo 0-7     > /dev/cpuset/top-app/cpus
-    echo 0-5,7 > /dev/cpuset/foreground/cpus
-    echo 4-5     > /dev/cpuset/background/cpus
-    echo 2-5     > /dev/cpuset/system-background/cpus
-    echo 2-5     > /dev/cpuset/restricted/cpus
-
     # Enable idle state listener
     echo 1 > /sys/class/drm/card0/device/idle_encoder_mask
     echo 100 > /sys/class/drm/card0/device/idle_timeout_ms
@@ -202,13 +204,22 @@ case "$soc_id" in
 
     # configure governor settings for little cluster
     echo "schedutil" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-    echo 500 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/up_rate_limit_us
-    echo 20000 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/down_rate_limit_us
+    echo 0 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/up_rate_limit_us
+    echo 0 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/down_rate_limit_us
+    echo 1248000 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_freq
+    echo 576000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+    echo 1 > /sys/devices/system/cpu/cpu0/cpufreq/schedutil/pl
 
     # configure governor settings for big cluster
     echo "schedutil" > /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor
-    echo 500 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/up_rate_limit_us
-    echo 20000 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/down_rate_limit_us
+    echo 0 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/up_rate_limit_us
+    echo 0 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/down_rate_limit_us
+    echo 1324600 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/hispeed_freq
+    echo 652800 > /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq
+    echo 1 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/pl
+
+    echo "0:1248000" > /sys/module/cpu_boost/parameters/input_boost_freq
+    echo 100 > /sys/module/cpu_boost/parameters/input_boost_ms
 
     # Configure default schedTune value for foreground/top-app
     echo 1 > /dev/stune/foreground/schedtune.prefer_idle
@@ -293,13 +304,6 @@ case "$soc_id" in
         done
     done
 
-    # cpuset parameters
-    echo 0-7     > /dev/cpuset/top-app/cpus
-    echo 0-5,7 > /dev/cpuset/foreground/cpus
-    echo 4-5     > /dev/cpuset/background/cpus
-    echo 2-5     > /dev/cpuset/system-background/cpus
-    echo 2-5     > /dev/cpuset/restricted/cpus
-
     # Enable idle state listener
     echo 1 > /sys/class/drm/card0/device/idle_encoder_mask
     echo 100 > /sys/class/drm/card0/device/idle_timeout_ms
@@ -308,8 +312,5 @@ case "$soc_id" in
     echo 0 > /sys/module/lpm_levels/parameters/sleep_disabled
     ;;
 esac
-
-# Enable PowerHAL hint processing
-setprop vendor.powerhal.init 1
 
 setprop vendor.post_boot.parsed 1
