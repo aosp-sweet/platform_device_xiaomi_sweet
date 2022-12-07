@@ -49,6 +49,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
+# HIDL
+PRODUCT_PACKAGES += \
+    libhwbinder \
+    libhidltransport \
+    libhwbinder.vendor \
+    libhidltransport.vendor
+
 # Init scripts
 PRODUCT_PACKAGES += \
     init.mi.usb.sh \
