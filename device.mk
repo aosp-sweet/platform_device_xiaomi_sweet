@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     libsuspend
 
+# Display
+PRODUCT_PACKAGES += \
+    android.frameworks.displayservice@1.0.vendor
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
