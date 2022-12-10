@@ -275,6 +275,21 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
+    av \
+    bt \
+    display \
+    gps \
+    overlay \
+    media-legacy \
+    perf \
+    telephony \
+    usb \
+    wfd \
+    wlan
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.6.vendor \
@@ -297,7 +312,11 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/qcom/display\
+    hardware/qcom/media \
+    hardware/xiaomi \
+    vendor/qcom/opensource/audio-hal/primary-hal
 
 # Thermal
 PRODUCT_PACKAGES += \
