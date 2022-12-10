@@ -83,6 +83,9 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_MATRIX_FILE := device/qcom/common/compatibility_matrix.xml
 
+ODM_MANIFEST_SWEET_FILES := \
+    $(DEVICE_PATH)/configs/hidl/manifest_sweet.xml
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sweet
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sweet
@@ -107,6 +110,9 @@ TARGET_KERNEL_CONFIG := sweet_defconfig
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
+
+# NFC
+ODM_MANIFEST_SKUS += sweet
 
 # Pathmap-File
 TARGET_COPY_OUT_ODM := odm
