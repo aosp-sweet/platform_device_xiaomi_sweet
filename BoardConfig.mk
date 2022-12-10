@@ -73,6 +73,9 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 # FM
 BOARD_HAVE_QCOM_FM := true
 
+# GPS
+LOC_HIDL_VERSION := 4.0
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/configs/hidl/device_framework_compatibility_matrix.xml
