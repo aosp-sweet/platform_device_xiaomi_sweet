@@ -272,5 +272,12 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
 
+# Vulkan
+PRODUCT_PACKAGES += \
+    libvulkan
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.vulkan.deqp.level-2019-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
+
 # Inherit from proprietary files
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
