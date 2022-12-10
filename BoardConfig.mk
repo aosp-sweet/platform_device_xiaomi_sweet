@@ -150,6 +150,12 @@ BOARD_VENDORIMAGE_PARTITION_RESERVED_SIZE := 30720000
 # Power
 TARGET_POWER_FEATURE_EXT_LIB := //$(DEVICE_PATH):libpowerfeature_ext_sweet
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/vendor.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/product.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/system_ext.prop
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 BOARD_INCLUDE_RECOVERY_DTBO := true
