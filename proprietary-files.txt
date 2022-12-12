@@ -1071,11 +1071,12 @@ vendor/lib64/libultrasound.so
 vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.mius.proximity.so
 
-# Soter - from mojito V13.0.10.0.SKGMIXM
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|dcdca96d86411b7cfe7200c07570a341d35e5607
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|5496f7816036ef71aec0116864032f8a6078aee7
+# Soter - MIUI
+vendor/app/SoterService/SoterService.apk 
+-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service 
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc 
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Thermal - MIUI
 vendor/bin/mi_thermald
