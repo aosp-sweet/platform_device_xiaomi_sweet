@@ -156,6 +156,10 @@ persist.vendor.radio.manual_nw_rej_ct=1
 persist.vendor.radio.report_codec=1
 
 # USB
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
 
