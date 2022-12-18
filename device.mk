@@ -176,7 +176,8 @@ PRODUCT_COPY_FILES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor \
-    android.hardware.keymaster@4.1.vendor
+    android.hardware.keymaster@4.1.vendor \
+    libkeymaster_messages.vendor:64
 
 # Keylayout
 PRODUCT_COPY_FILES += \
