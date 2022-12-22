@@ -1,4 +1,33 @@
-# Unpinned blobs are extracted from sweet MIUI V13.0.7.0 SKFMIXM, else pinned
+# All unpinned proprietary files below are extracted from Redmi Note 10 Pro (sweet) MIUI V13.0.8.0.SKFMIXM, else pinned.
+
+# Adreno - MIUI
+vendor/firmware/a612_rgmu.bin
+vendor/firmware/a612_zap.b00
+vendor/firmware/a612_zap.b01
+vendor/firmware/a612_zap.b02
+vendor/firmware/a612_zap.elf
+vendor/firmware/a612_zap.mdt
+vendor/firmware/a615_zap.b00
+vendor/firmware/a615_zap.b01
+vendor/firmware/a615_zap.b02
+vendor/firmware/a615_zap.elf
+vendor/firmware/a615_zap.mdt
+vendor/firmware/a618_gmu.bin
+vendor/firmware/a630_gmu.bin
+vendor/firmware/a630_sqe.fw
+vendor/firmware/a640_gmu.bin
+
+# ACDB - from sweet V12.0.6.0.RKFMIXM
+vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|1607f4018f676dae74fc24efa5fbd1ccb9093812
+vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb|91735baca19020f2136e5d4f8616db458da88ce9
+vendor/etc/acdbdata/Forte/Forte_General_cal.acdb|e1d91d42aaa60f16896b672d24c5a0bf214cdb4c
+vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb|b34ec442b87c1acb88dafd55fd86e77acbb003a3
+vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb|8a3778a244c3f4c73f6b3f6fc638815898e630c3
+vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb|288299cf2dbdc2b4891a08eb1c74f5e5b2d37bd5
+vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb|3affad5382970a6d932268322965bfae4a7b7a41
+vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|e98d5e4bbd2afe7fb18a206dd4f157a1a2fa2a8d
+vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|e48a5798ea09afc1ad47c02939846a6a51221811
+vendor/etc/acdbdata/adsp_avs_config.acdb|d1138e8fb3ebbee65bd09891352eebb8bbc3d6fe
 
 # ADSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/adsprpcd|12e09d8e87b260a8721c7938890186a0877a9e85
@@ -12,7 +41,7 @@ vendor/lib64/libadsprpc.so|23f060277d2d62556ececafdd302f5c9ed04e71b
 vendor/lib64/libmdsprpc.so|8809bf6a1205973af25b5fc70a6fbef51b19d4cc
 vendor/lib64/libsdsprpc.so|3955edaff3a2950999f14b0b45c0507bb22a7410
 
-# ADSP Modules
+# ADSP (Modules) - MIUI
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
@@ -23,7 +52,7 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 
-# ADSP Modules - from mojito MIUI V13.0.4.0 SKGMIXM
+# ADSP (Modules) - from mojito V13.0.10.0.SKGMIXM
 vendor/lib/rfsa/adsp/libVC1Dec.so|732ede3ede9e6e1b09c439156f62a07d8fa0ee3e
 vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|eff059c5a29a44d205bd60ad24aecc46416e939e
 vendor/lib/rfsa/adsp/libapps_mem_heap.so|1cdac354c585c0d236d77b0888ebd5894b333326
@@ -55,8 +84,7 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so|7c89039a1d670ff6f92ada82bd1ff2c236
 vendor/lib/hw/com.dsi.ant@1.0-impl.so|d99ff0030ce14172d9d10e0b1f31b2d201aade10
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|0f8f5c3081d0ef745e0896b1fceea15f52fe3b21
 
-# Audio
-vendor/lib/soundfx/libmisoundfx.so
+# Audio - MIUI
 vendor/lib/liba2dpoffload.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
@@ -82,50 +110,45 @@ vendor/lib/libspkrprot.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 
-# Audio ACDB - from sweet MIUI V12.0.6.0 RKFMIXM
-vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|1607f4018f676dae74fc24efa5fbd1ccb9093812
-vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb|91735baca19020f2136e5d4f8616db458da88ce9
-vendor/etc/acdbdata/Forte/Forte_General_cal.acdb|e1d91d42aaa60f16896b672d24c5a0bf214cdb4c
-vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb|b34ec442b87c1acb88dafd55fd86e77acbb003a3
-vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb|8a3778a244c3f4c73f6b3f6fc638815898e630c3
-vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb|288299cf2dbdc2b4891a08eb1c74f5e5b2d37bd5
-vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb|3affad5382970a6d932268322965bfae4a7b7a41
-vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|e98d5e4bbd2afe7fb18a206dd4f157a1a2fa2a8d
-vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|e48a5798ea09afc1ad47c02939846a6a51221811
-vendor/etc/acdbdata/adsp_avs_config.acdb|d1138e8fb3ebbee65bd09891352eebb8bbc3d6fe
+# Audio (FX) - MIUI
+system_ext/etc/permissions/audiosphere.xml
+system_ext/framework/audiosphere.jar
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libmisoundfx.so
+vendor/lib/soundfx/libshoebox.so
 
-# Audio FX Modules - from mojito MIUI V13.0.4.0 SKGMIXM
-system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
-system_ext/framework/audiosphere.jar|98d17293550d99e59d1edd8582ed4551dc167249
-vendor/lib/soundfx/libasphere.so|b2daeb875914a33575c7d7a67429f25d09d35489
-vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
-
-# Audio HAL - from sweet MIUI V12.5.9.0 RKFMIXM
-vendor/lib/hw/audio.primary.sm6150.so|2ae8153e03bd9ca87f9a6a6bff59f9f5ed52a01f
+# Audio (HAL) - from sweet V12.0.6.0.RKFMIXM
+vendor/lib/hw/audio.primary.sm6150.so|27ceb10eb24040aadab094191a3a2da462f94989
 vendor/lib/libaudio_log_utils.so|71ec4d31ad6c9e9a4bee8db7b5ab55b70ef7c4c3
-vendor/lib64/hw/audio.primary.sm6150.so|8bfea371bbddeee21204bd16e7b980225430abb2
+vendor/lib/vndk/libxlog.so|bdb3d8d8b37bd4e1e84f59d912457690e7388f2e
+vendor/lib64/hw/audio.primary.sm6150.so|c74f96233f378fa0be6cd0bfc9fea92b5734f15c
 vendor/lib64/libaudio_log_utils.so|6091c30d5724adb31a3b4c71379cc004c235905a
 
-# Bluetooth - from mojito MIUI V12.5.5.0 SKGMIXM
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2401640a10df4de23f704b87c4adab2da9ed111d
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|4bed8d0cc4d2747a6f48fbbff5cd01dbc42c28d8
-vendor/lib/btaudio_offload_if.so|29d13cf463ff767ef20ee473a4a13e8167f3326e
-vendor/lib/libbluetooth_audio_session_qti.so|c1f6889d34c5506c957d6ffde9c30a3e09180493
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|8c1aa835bf7dc6117e0e7872bf207102fcf568ee
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|a97a6c330c932176acee0bce820c6e737778aed4
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|2c5480b33615179e1a8a67bf93e190e8647c68b4
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|0abafcc0c404b67bb0d87128a87cc9deabe54935
-vendor/lib64/btaudio_offload_if.so|cdf8f2cf1964d260ad472d6cabf0bde186f236a2
-vendor/lib64/libbtnv.so|07e031527e60ce5e62a5017fd1d7ff83ef1aafcf
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|d1443e04e24cb45dd06f5d222b22a699c9e82cb1
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|1671815a79dab0fde9248d0851085ec1ab314f64
+# Bluetooth - MIUI
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
+vendor/lib64/libbtnv.so
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
-# Batterysecret
+# Bluetooth (A2DP) - MIUI
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
+vendor/lib/btaudio_offload_if.so
+vendor/lib/libbluetooth_audio_session_qti.so
+vendor/lib/libbluetooth_audio_session_qti_2_1.so
+vendor/lib64/btaudio_offload_if.so
+
+# Batterysecret - MIUI
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
-# Camera
+# Camera - MIUI
+vendor/bin/cameratest
 vendor/lib64/camera/com.qti.sensor.sweet_gc02m1.so
 vendor/lib64/camera/com.qti.sensor.sweet_imx355.so
 vendor/lib64/camera/com.qti.sensor.sweet_imx471_front.so
@@ -190,7 +213,6 @@ vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libft2vendor.so
 vendor/lib64/libhta.so
-vendor/lib64/libhta_hexagon_runtime.so
 vendor/lib64/libhvx_interface.so
 vendor/lib64/libmegface.so
 vendor/lib64/libmiai_portraitsupernight.so
@@ -229,11 +251,11 @@ vendor/lib64/libxmi_high_dynamic_range.so
 vendor/lib64/libxml2_vendor.so
 vendor/lib64/mibokeh_712_opencl.bin
 
-# Camera Wide - from sweet(IN) MIUI V13.0.8.0.SKFINXM
+# Camera - from sweetin V13.0.8.0.SKFINXM
 vendor/lib64/camera/com.qti.tuned.sweet_ofilm_s5kgw3_wide.bin|84d4d8875faf1dc44a68df5406b76969bd6d29b2
 vendor/lib64/camera/com.qti.tuned.sweet_sunny_s5kgw3_wide.bin|69755c55507ad9cde3c0a05a0c7f48be3d54b344
 
-# Camera Arcsoft
+# Camera (Arcsoft) - MIUI
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_distortion_correction.so
 vendor/lib64/libarcsoft_dualcam_refocus.so
@@ -246,7 +268,7 @@ vendor/lib64/libarcsoft_portrait_lighting_c.so
 vendor/lib64/libarcsoft_preview_deflicker.so
 vendor/lib64/libarcsoft_super_night_raw.so
 
-# Camera Components
+# Camera (Components) - MIUI
 vendor/lib64/camera/components/etc/morpho_lowlight4.0.xml
 vendor/lib64/camera/components/etc/morpho_lowlight4.0_3hdr.xml
 vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
@@ -309,7 +331,7 @@ vendor/lib64/camera/components/com.xiaomi.node.misegment.so
 vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libmmcamera_cac3.so
 
-# Camera Configs
+# Camera (Configs) - MIUI
 vendor/camera/model/model_front.dlc
 vendor/etc/camera/102_SummerDay.png
 vendor/etc/camera/103_Fantasy.png
@@ -373,11 +395,8 @@ vendor/etc/camera/vidhance_calibration_108m
 vendor/etc/camera/vidhance_calibration_64m
 vendor/etc/camera/watermark_font_2300_3199.dat
 
-# Camera Firmware
+# Camera (Firmware) - MIUI
 vendor/firmware/CAMERA_ICP.elf
-
-# Camera Test
-vendor/bin/cameratest
 
 # CDSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/cdsprpcd|530bcfcf9a31dedcc6c8ff5ea33fbaf8c03ab877
@@ -401,42 +420,15 @@ vendor/bin/init.qti.chg_policy.sh|9a96b05abdfe149eb8a7e20a791284e84b5fffe0
 vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
 
-# Charger - ( HVDCP )
+# Charger - MIUI
 vendor/bin/hvdcp_opti
 
 # CNE - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 -vendor/app/CneApp/CneApp.apk|909e1cce38c475a2b274df5f0571ccd7655d86a1
 vendor/bin/cnd|f6b821fe6db66e64973a55fc98b20cfc4f779c12
+vendor/etc/default-permissions/com.qualcomm.qti.cne.xml|c63c37d067e3009735fbc54d4603d43d7d6623e1
 vendor/etc/cne/mwqem.conf|c42ad47b34b511075e5dfb9047d32f881fe0c159
 vendor/etc/cne/profileMwqem.xml|947917691684584b7e2ddf3588cd6f8e99f3804f
-vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
-vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
-vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml|f88e13f1dd7b82388c90358f71813026370c9ed8
-vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml|fb08e04f57797c5684bf734f7ce4bb4968859b18
-vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml|eb726ad1a42b9b78b9ee3b821fc108611bc9eeac
-vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml|be97b46b0d07ee2f6ebcc677d8099ed2140d5d85
-vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml|0130dfd8326ee710bf4e15718ede87c49a85b763
-vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml|e05b935d7ccf48d306b71c719b2e4df83187d9c0
-vendor/etc/cne/wqeclient/ROW/ROW_profile17.xml|f1b33204799268eda78dd8314f26abf2e37431e2
-vendor/etc/cne/wqeclient/ROW/ROW_profile18.xml|19db16f62dabb806a62f192858a9d52b5bc2a064
-vendor/etc/cne/wqeclient/ROW/ROW_profile19.xml|1fcc57b1fa4dbbc7d250e8dd92acf1527d447eb3
-vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml|e7ca213d0998cb3a6a603ad3eca7bda69830ff55
-vendor/etc/cne/wqeclient/ROW/ROW_profile20.xml|7be0614cf0116c39b736c58fe5eca36838aeb3db
-vendor/etc/cne/wqeclient/ROW/ROW_profile21.xml|cc62517e6c37e12ee1ebebbb27f9c22878749be3
-vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml|169a5209000e357a1a3183e8e5bfdf6fd07c2787
-vendor/etc/cne/wqeclient/ROW/ROW_profile32.xml|b87542b9284efe4c2bd0ae868bb9a765c2c3dbc5
-vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml|4be4060e8ac2d9fcea490feec7938cadcff46e1f
-vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml|f88e13f1dd7b82388c90358f71813026370c9ed8
-vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml|96101f6b01436a02572c67a469ff67ccfb738874
-vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml|cef14ff8a160c7ad719b85d024a4b3301c3638d0
-vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml|8d6773a4c418d0dcc4dc9096017d2681c7a1defe
-vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml|c89d3c062790b442cbe941cafc641a4e322f2d59
-vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml|ba14a9df975cf872ed0cbe28bee8fac63cd848d4
-vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml|9b123d81c9b8991499cda33b0706810e0c8fb974
-vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml|ff91feb5060a6df07e3e4d9bc99ae58bccad7649
-vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml|f76c894f3c6d5b6ed35113a088dc3174c900501b
-vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml|14d136e7fcc682311757d3edc0b9d3eaeba11815
-vendor/etc/default-permissions/com.qualcomm.qti.cne.xml|c63c37d067e3009735fbc54d4603d43d7d6623e1
 vendor/etc/init/cnd.rc|3a5183df3479500fb729493bc56c71166fc10bce
 vendor/lib64/libcne.so|fc0406d003e63a6acc4b0bbcf2c5d09c042c94f1
 vendor/lib64/libcneapiclient.so|507776a16bd884f5de106e4b76326990b8dbfd54
@@ -465,13 +457,39 @@ vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|000e0d2ac4450c0ad8baca06985bc
 vendor/lib64/vendor.qti.latency@2.0.so|cd9d3705780540323a235af4e3d8bee5c7eb3f63
 vendor/lib64/vendor.qti.latency@2.1.so|2fe737701600872e926842f3efcc5d1f21e3d73e
 
+# CNE (Profiles) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
+vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
+vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml|f88e13f1dd7b82388c90358f71813026370c9ed8
+vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml|fb08e04f57797c5684bf734f7ce4bb4968859b18
+vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml|eb726ad1a42b9b78b9ee3b821fc108611bc9eeac
+vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml|be97b46b0d07ee2f6ebcc677d8099ed2140d5d85
+vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml|0130dfd8326ee710bf4e15718ede87c49a85b763
+vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml|e05b935d7ccf48d306b71c719b2e4df83187d9c0
+vendor/etc/cne/wqeclient/ROW/ROW_profile17.xml|f1b33204799268eda78dd8314f26abf2e37431e2
+vendor/etc/cne/wqeclient/ROW/ROW_profile18.xml|19db16f62dabb806a62f192858a9d52b5bc2a064
+vendor/etc/cne/wqeclient/ROW/ROW_profile19.xml|1fcc57b1fa4dbbc7d250e8dd92acf1527d447eb3
+vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml|e7ca213d0998cb3a6a603ad3eca7bda69830ff55
+vendor/etc/cne/wqeclient/ROW/ROW_profile20.xml|7be0614cf0116c39b736c58fe5eca36838aeb3db
+vendor/etc/cne/wqeclient/ROW/ROW_profile21.xml|cc62517e6c37e12ee1ebebbb27f9c22878749be3
+vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml|169a5209000e357a1a3183e8e5bfdf6fd07c2787
+vendor/etc/cne/wqeclient/ROW/ROW_profile32.xml|b87542b9284efe4c2bd0ae868bb9a765c2c3dbc5
+vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml|4be4060e8ac2d9fcea490feec7938cadcff46e1f
+vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml|f88e13f1dd7b82388c90358f71813026370c9ed8
+vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml|96101f6b01436a02572c67a469ff67ccfb738874
+vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml|cef14ff8a160c7ad719b85d024a4b3301c3638d0
+vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml|8d6773a4c418d0dcc4dc9096017d2681c7a1defe
+vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml|c89d3c062790b442cbe941cafc641a4e322f2d59
+vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml|ba14a9df975cf872ed0cbe28bee8fac63cd848d4
+vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml|9b123d81c9b8991499cda33b0706810e0c8fb974
+vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml|ff91feb5060a6df07e3e4d9bc99ae58bccad7649
+vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml|f76c894f3c6d5b6ed35113a088dc3174c900501b
+vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml|14d136e7fcc682311757d3edc0b9d3eaeba11815
+
 # ConfigStore - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|645da35014e8fa91ac3880ac0d8db2a3c7f7020b
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|e70fda0288c646d0daf0ed0eef2f21855dd8d024
-
-# Consumer IR 
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
 
 # Display - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/lib64/libdisplayqos.so|5548732c916e629f18f45ce257ce843b679a136a
@@ -485,23 +503,23 @@ vendor/lib64/libsdm-disp-vndapis.so|60da199073d2b0881bf075190a644b332503f39c
 vendor/lib64/libsdmextension.so|76ef1430f700480509b5f991e031447fea9ddb01
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
-# Display calibration - from sweet MIUI V13.0.8.0 SKFMIXM
-vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml|16251feaac429088a2866564bccf314b8d066a0a
-vendor/etc/dsi_k6_38_0e_0b_fhd_dsc_video_display_mi.xml|16251feaac429088a2866564bccf314b8d066a0a
-vendor/etc/hdr_config.cfg|14bd7906643998c6b6bb51be5f20007232eaccc3
-vendor/etc/sdr_config.cfg|4e0901a44be67f92b747e2c34d13f8858f9cc010
-vendor/etc/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml|263211f828a7ce59abdbe188a62a1f6671efac15
-vendor/etc/qdcm_calib_data_Dual_s6e3ha3_amoled_cmd_mode_dsi_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
-vendor/etc/qdcm_calib_data_nt36672c_fhd_plus_video_mode_dsi_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
-vendor/etc/qdcm_calib_data_rm69298_amoled_fhd+_cmd_mode_dsi_truly_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
-vendor/etc/qdcm_calib_data_rm69298_amoled_fhd+_video_mode_dsi_truly_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
-vendor/etc/qdcm_calib_data_sharp_1080p_120hz_dual_dsi_cmd_mode_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
-vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
-vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
-vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
-vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml|263211f828a7ce59abdbe188a62a1f6671efac15
+# Display (HDR) - MIUI
+vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml
+vendor/etc/dsi_k6_38_0e_0b_fhd_dsc_video_display_mi.xml
+vendor/etc/hdr_config.cfg
+vendor/etc/sdr_config.cfg
+vendor/etc/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml
+vendor/etc/qdcm_calib_data_Dual_s6e3ha3_amoled_cmd_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_nt36672c_fhd_plus_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_rm69298_amoled_fhd+_cmd_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_rm69298_amoled_fhd+_video_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_sharp_1080p_120hz_dual_dsi_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml
 
-# Display postprocessing - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+# Display (Postprocessing) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/vendor.display.color@1.0-service|91e9e25ec4d64c4a7d5261899ca2cdb9cf29b695
 vendor/bin/ppd|57172f5d3b0b9bfc04f5eed93672d2b6f175d1f4
 vendor/bin/qdcmss|a1bb68e4508feac29c821eb791cae8b1db235e28
@@ -551,13 +569,13 @@ vendor/lib64/libssd.so|0a461a98eb314fe6e79bfe08457a88e48c52550a
 vendor/lib64/libtrustedapploader.so|e9ebd0130381cf60219d4c511a8e6908684cb7ab
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so|ce94ef46eea7c32e8a0d47ce4aa372153cc339fb
 
-# DRM widevine - from mojito MIUI V13.0.4.0 SKGMIXM
+# DRM (Widevine) - from mojito V13.0.10.0.SKGMIXM
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81bb16987a1e715c21
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|a9ce64f68c86725c06c1b1429e90b04ff96ebf60
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
 vendor/lib64/liboemcrypto.so|5aa09ccd47c10e5f2d0ec0831260182ac2f9e6ec
-vendor/lib64/mediadrm/libwvdrmengine.so|9692c6484923618f4063a25d4da3d1d5f133a6b1
-vendor/lib64/libwvhidl.so|ed08a0c11b4633f6b963fb304369dab98850855d
+vendor/lib64/mediadrm/libwvdrmengine.so|3cbf1b4f7bcfc317ede88c28531d7e4bc19bfe7f
+vendor/lib64/libwvhidl.so|f1cd0b3b13286ab953775dec0c866ab45d7e1970
 
 # DSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/dspservice|a7344fc3d27a49df30858ebc3f73ee5818e752d4
@@ -565,18 +583,20 @@ vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so|0af387d416acf6d697b9edd4090e3a6941696970
 
-# Fingerprint
+# Fingerprint - MIUI
 vendor/lib64/hw/fingerprint.fortsense.so:vendor/lib64/hw/fingerprint.fortsense.sm6150.so
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sm6150.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/vendor.sw.swfingerprint@2.0.so
 
-# FM - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-system_ext/lib64/fm_helium.so|0d810fb4f094daf6f399a3d13f379a13114b21a6
-system_ext/lib64/libfm-hci.so|66ccf3fc817cf744871ea4178702359bb8babbd5
--system_ext/lib64/vendor.qti.hardware.fm@1.0.so|0bfc9d9097698b7cc8cb74721cb971a80f862720
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|5a22b01d24491c2faffdc7dc19e06d4b961c6e33
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|49e99338190dbbe0a5db2be70fa68f24e3fd18fa
+# FM - from LA.QSSI.13.0.r1-05500-qssi.0
+-system_ext/lib64/fm_helium.so|623a78dfe8f73808158bc88116cd3204588aa126
+-system_ext/lib64/libfm-hci.so|605591d98f2a98773209ae67f374e726f39eeda4
+-system_ext/lib64/vendor.qti.hardware.fm@1.0.so;MODULE=vendor.qti.hardware.fm@1.0_system_ext|474a9399822c89409cd001095ad12eacfd079fba
+
+# FM - MIUI
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE=vendor.qti.hardware.fm@1.0_vendor
 
 # Gatekeeper - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e413440511049025497945d6b8484
@@ -633,25 +653,8 @@ vendor/lib64/vendor.qti.gnss@4.0.so|5ef1845cf0a310a52bfbdbc719685270ea4e39b3
 vendor/lib64/vendor.qti.gnss@4.0-service.so|d4ad241375b02946f2822888f7cc95704210a929
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
 
-# GPU drivers - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+# GPU - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 -vendor/app/com.qualcomm.qti.gpudrivers.sm6150.api30/com.qualcomm.qti.gpudrivers.sm6150.api30.apk|c3601f567e672f5493fd8015d858d78399b891f2
-
-# Graphics Firmware
-vendor/firmware/a612_rgmu.bin
-vendor/firmware/a612_zap.b00
-vendor/firmware/a612_zap.b01
-vendor/firmware/a612_zap.b02
-vendor/firmware/a612_zap.elf
-vendor/firmware/a612_zap.mdt
-vendor/firmware/a615_zap.b00
-vendor/firmware/a615_zap.b01
-vendor/firmware/a615_zap.b02
-vendor/firmware/a615_zap.elf
-vendor/firmware/a615_zap.mdt
-vendor/firmware/a618_gmu.bin
-vendor/firmware/a630_gmu.bin
-vendor/firmware/a630_sqe.fw
-vendor/firmware/a640_gmu.bin
 
 # IMS - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 -vendor/app/IWlanService/IWlanService.apk|7b857a7efe66fb2519874e70a58d71eee72e92e9
@@ -706,7 +709,7 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|38a159f3e564dccbfb9d5170ea2ce8da49c
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|ca8afe08d6244cc9fdfcc38ca950fafa4b147625
 
-# IPA
+# IPA - MIUI
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
 vendor/firmware/ipa_fws.b02
@@ -715,11 +718,13 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
-# IRQ balance
-vendor/bin/msm_irqbalance
-vendor/etc/msm_irqbalance.conf|f62d3047032dd76473ed8293c4b056c0d36db08d
+# IR - MIUI
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
 
-# Keymaster - from mojito MIUI V13.0.4.0 SKGMIXM
+# IRQ - MIUI
+vendor/bin/msm_irqbalance
+
+# Keymaster - from mojito V13.0.10.0.SKGMIXM
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|0e0aa56f9ad9b1832eeb39db82eed1f021d7e244
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc|f6907552961ba772c1ad5b493913a60d65abedb4
 -vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml|478d11fc12dd7c6a85b543cf163bec217aea3148
@@ -728,7 +733,7 @@ vendor/lib64/libkeymasterutils.so|2392abef423c0610d9625670f1ff3063532e9bc1
 vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
 vendor/lib64/libqtikeymaster4.so|327715d70e914e5c4eae2fbee039e24bb81d9157
 
-# Listen - from mojito MIUI V13.0.4.0 SKGMIXM
+# Listen - from mojito MIUI V13.0.10.0.SKGMIXM
 vendor/lib/hw/sound_trigger.primary.sm6150.so|ca71ad289d26dc40fce6b1edfd5834861a272d7e
 vendor/lib/libadpcmdec.so|297d8fecff85b6dc67ff19e788bcf3f1286014a0
 vendor/lib/libgcs-calwrapper.so|1affcf5d9f81372911efe63fc943b20650c177e6
@@ -797,6 +802,9 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so|d47fd7845c02aec702ab96569b90eb6bff2c
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so|13714cdc3a7a5aaa67e641034cb92e9fced28960
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so|aea8a28f53263b5001df295d0a6eab0e8405693b
 
+# Native Libraries - MIUI
+vendor/etc/public.libraries.txt
+
 # Neural Networks - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti|727be3a0dd6c323b3156a3e2724b6dfff890cb6b
 vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc|4b7f2c5f914f3eef38f19936c0a06efc09b5b28c
@@ -809,7 +817,7 @@ vendor/lib64/unnhal-acc-common.so|e37d2113f99506f1de85902a0fdee0b443342942
 vendor/lib64/unnhal-acc-hta.so|6cb1ca10aa1c82e59641d545d9f1ac7f00df8621
 vendor/lib64/unnhal-acc-hvx.so|3f61cfe064965ea1a5fc288b133da1802d36b608
 
-# NFC - from sweet MIUI V12.5.9.0 SKFMIXM
+# NFC - from sweet V12.0.6.0.RKFMIXM
 system_ext/lib/vendor.nxp.hardware.nfc@1.0.so|2cbd2166ecfcbda02da1dcebf6ff25ddb1b26361
 system_ext/lib/vendor.nxp.hardware.nfc@1.1.so|db5dd74d0c560dbeeb363a8e0fe874be371adecc
 system_ext/lib/vendor.nxp.hardware.nfc@2.0.so|f8a34a0c0867af86104ad173f7213d9a2409339e
@@ -849,9 +857,6 @@ vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so|f49cb9321895aa2d0249a4f48ba4ca094589
 vendor/bin/pm-proxy|0704192692efb4b79e8cb1a2252625ad24468805
 vendor/bin/pm-service|1a48e2a015181b351374b99053fb5dee8e2750ee
 vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
-
-# Public Libraries
-vendor/etc/public.libraries.txt
 
 # QCV (SOC Helper) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/init.qti.qcv.sh|a8f664cb25d5d381885833e6a8c8b2f462958acf
@@ -901,7 +906,7 @@ vendor/lib64/libqmi_encdec.so|540a9638c374a91849625d44873564482c639be4
 vendor/lib64/libqmi_legacy.so|90f61304185005b398a2f7f79b20193a2d6cef4a
 vendor/lib64/libqmiservices.so|5a806357bba21014bb4bfe6e0000993563b24e20
 
-# QTEE connector - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+# QTEE - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|00dfdec5db40bbd3bd2af327200a61a73cbd47d7
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
 vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|1a0e734c388be549924e68ebf69b4f27aa101aab
@@ -1006,7 +1011,7 @@ vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql|a0603a5c46e8e
 vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql|4701219a79190995eda651e5c45e11c9b111a478
 vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql|1ca05b047116cbc776f71d3bdba4952b18b04229
 
-# Sensors
+# Sensors - MIUI
 vendor/bin/sensors.qti
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
@@ -1022,13 +1027,13 @@ vendor/lib64/libssccalapi.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
 
-# Sensors calibrate
+# Sensors (Calibration) - MIUI
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
-# Sensors config
+# Sensors (Configs) - MIUI
 vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/bu27030_0.json
@@ -1074,20 +1079,21 @@ vendor/etc/sensors/hals.conf
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sns_reg_config
 
-# Sensors Ultrasound
+# Sensors (Elliptic) - MIUI
 vendor/etc/elliptic_sensor.xml
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libultrasound.so
 vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.mius.proximity.so
 
-# Soter - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|dcdca96d86411b7cfe7200c07570a341d35e5607
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|52f410430054a012a983529b0ee1ed3b689b9dcb
+# Soter - MIUI
+vendor/app/SoterService/SoterService.apk
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Thermal
+# Thermal - MIUI
 vendor/bin/mi_thermald
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
@@ -1107,18 +1113,18 @@ vendor/etc/thermald-devices.conf
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 
-# Time - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+# Time Services - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
 vendor/bin/time_daemon|17377813bbc330c23d2fee77be21fe24d8aa131e
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|7b8bf7bf1eaa4df8f6613f4ece711a0797cd2e46
 
-# TUI communicator - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+# TUI - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|938262f1c75299523dc8e5c4e6a793753b209c40
 
-# Vibrator Firmware
+# Vibrator - MIUI
 vendor/firmware/awinic/aw882xx_pid_1852_acf.bin
 vendor/firmware/awinic/aw882xx_pid_1852_monitor.bin
 vendor/firmware/awinic/aw882xx_pid_2032_acf.bin
@@ -1240,6 +1246,7 @@ vendor/firmware/vehicle_collision_RTP.bin
 vendor/firmware/vehicle_dacia_RTP.bin
 vendor/firmware/vehicle_moto_RTP.bin
 vendor/firmware/vehicle_plane_RTP.bin
+vendor/firmware/wigig/wigig.ini
 
 # WiFi Display - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/wfdvndservice|194bb3aef5237f05d0c8fab2c88846147a6cc55a
@@ -1277,11 +1284,6 @@ vendor/lib/libwfdutils_proprietary.so|3ca0bd1c8c73c0cdeaf643cb940befba5c48267e
 vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|c08e1803c3089ee5da37b0a56eb9c2bdf9aeb4b2
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so|fefea0a3279f850e562cfaaf4fe3b24af1dd3994
 
-# Wigig Firmware
-vendor/firmware/wigig/wigig.ini
-
-# WLAN - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
--vendor/bin/cnss-daemon|a66bf400596682c3cb4d5cbdcdd3640333844eb1
-
-# Xiaomi MAC
-vendor/bin/nv_mac
+# WLAN - MIUI
+-vendor/bin/cnss-daemon
+-vendor/bin/nv_mac
