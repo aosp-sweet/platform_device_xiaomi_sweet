@@ -65,6 +65,9 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# DTBO
+BOARD_KERNEL_SEPARATED_DTBO := true
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 
@@ -88,9 +91,9 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sweet
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sweet
 
 # Kernel
-BOARD_BOOT_HEADER_VERSION := 2
+TARGET_KERNEL_CONFIG := sweet_defconfig
+
 BOARD_KERNEL_BASE := 0x00000000
-BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_PAGESIZE := 4096
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom
@@ -104,11 +107,12 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += kpti=off
 BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=qcom
 
-BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet
-TARGET_KERNEL_CONFIG := sweet_defconfig
-BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
+# Enable DTB in bootimage
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+
+# Set header version for bootimage
+BOARD_BOOTIMG_HEADER_VERSION := 2
+BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 
 # Media
 TARGET_DISABLED_UBWC := true
@@ -167,7 +171,6 @@ TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/properties/system_ext.prop
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 
 # RIL
