@@ -210,6 +210,9 @@ ro.surface_flinger.frame_rate_multiple_threshold=60
 ro.soc.manufacturer=QTI
 ro.soc.model=SM7150
 
+# SSR
+persist.vendor.ssr.restart_level=ALL_ENABLE
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
