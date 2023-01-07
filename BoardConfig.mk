@@ -112,6 +112,9 @@ BOARD_KERNEL_CMDLINE += msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE += kpti=off
 BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=qcom
 
+KERNEL_SUPPORTS_LLVM_TOOLS := true
+TARGET_KERNEL_ADDITIONAL_FLAGS := LLVM=1 LLVM_IAS=1
+
 # Enable DTB in bootimage
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
