@@ -491,17 +491,16 @@ vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|645da35014e8
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|e70fda0288c646d0daf0ed0eef2f21855dd8d024
 
-# Display - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/lib64/libdisplayqos.so|5548732c916e629f18f45ce257ce843b679a136a
-vendor/lib64/libhdr_tm.so|a222a7d838735c5ce73f06d4096fea3ca19611c8
-vendor/lib64/libqseed3.so|7f2a659fb9acd84d79c11dbd6901b816d5d1214f
-vendor/lib64/libsdedrm.so|351f4f9a64566097bd19601f18951ac8131a92b5
-vendor/lib64/libsdm-color.so|d24904d36d2cd5912755af5ac7e2fede47cd3eac
-vendor/lib64/libsdm-colormgr-algo.so|15f696a4575868e528360896f1e0098d531899c0
-vendor/lib64/libsdm-diag.so|341907510d377127adb98d07e7d9f30448d08def
-vendor/lib64/libsdm-disp-vndapis.so|60da199073d2b0881bf075190a644b332503f39c
-vendor/lib64/libsdmextension.so|76ef1430f700480509b5f991e031447fea9ddb01
-vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
+# Display - MIUI
+vendor/lib64/libdisplayqos.so
+vendor/lib64/libhdr_tm.so
+vendor/lib64/libqseed3.so
+vendor/lib64/libsdm-color.so
+vendor/lib64/libsdm-colormgr-algo.so
+vendor/lib64/libsdm-diag.so
+vendor/lib64/libsdm-disp-vndapis.so
+vendor/lib64/libsdmextension.so
+vendor/lib64/libtinyxml2_1.so
 
 # Display (HDR) - MIUI
 vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml
@@ -519,19 +518,22 @@ vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Sharp_fhd_cmd_mode_qsync_dsi_panel.xml
 vendor/etc/qdcm_calib_data_Sharp_fhd_video_mode_qsync_dsi_panel.xml
 
-# Display (Postprocessing) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/bin/hw/vendor.display.color@1.0-service|91e9e25ec4d64c4a7d5261899ca2cdb9cf29b695
-vendor/bin/ppd|57172f5d3b0b9bfc04f5eed93672d2b6f175d1f4
-vendor/bin/qdcmss|a1bb68e4508feac29c821eb791cae8b1db235e28
-vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
-vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
-vendor/lib64/libdisp-aba.so|44993853ff9d4340e856e6f53d802f10372442d3
-vendor/lib64/libdpps.so|7f54d826ebe3748412e8c77ebb03c9a0193e9bf7
-vendor/lib64/vendor.display.color@1.0.so|f2af8d5ecc146560dca66895b5173e86e406e41e
-vendor/lib64/vendor.display.color@1.1.so|2cbb29aa26a15165a6b2f92065207930f4e050d9
-vendor/lib64/vendor.display.color@1.2.so|78875790131fffba844443bedb0f0f7e1d8ab47b
-vendor/lib64/vendor.display.color@1.3.so|8f3c1f9be4e9f7b684fef7aa5f585693a9c1127e
-vendor/lib64/vendor.display.postproc@1.0.so|9c7232cd75fd9df83e4a7b28c5ee796f488a6985
+# Display (Postprocessing) - MIUI
+vendor/bin/hw/vendor.display.color@1.0-service
+vendor/bin/ppd
+vendor/bin/qdcmss
+vendor/etc/init/qdcmss.rc
+vendor/etc/init/vendor.display.color@1.0-service.rc
+vendor/lib64/libdisp-aba.so
+vendor/lib64/libdpps.so
+vendor/lib64/vendor.display.color@1.0.so
+vendor/lib64/vendor.display.color@1.1.so
+vendor/lib64/vendor.display.color@1.2.so
+vendor/lib64/vendor.display.color@1.3.so
+vendor/lib64/vendor.display.postproc@1.0.so
+
+# Display (SDE) - from NX267J
+vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
 
 # DPM - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/dpmQmiMgr|61a421804559b0e461439c19088acc01b871982a
