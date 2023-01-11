@@ -744,6 +744,11 @@ vendor/lib/libgcs.so|5329a9c72d9f25ce542e999e8d340fdf417dca12
 vendor/lib/liblistensoundmodel2.so|b5fabe8c68348b3032dea07a8e67839c43bd492a
 vendor/lib/libsmwrapper.so|4c77ccc2cbcbc2c9939bc81bc8b3f512b99e3f61
 
+# MDM - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/ks|3d26cb693f66345a15339755249c6a8519dab9c7 
+vendor/bin/mdm_helper|ae461bfcf72ba66bb242ac27cb00c9bca98d4cb4 
+vendor/lib64/libmdmimgload.so|131e8e7b09e4691a7cfde8cf6bf26ecdceced21e
+
 # Media - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/bin/vppservice|0f77fd06c6438ded5e5704769db6cb1154d96cbe
 vendor/etc/configstore/vpp.configstore.xml|ed961545186c66fd9523f25866c74f2e11ee63d7
