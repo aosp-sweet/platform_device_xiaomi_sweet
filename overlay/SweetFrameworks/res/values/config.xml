@@ -456,9 +456,6 @@
          will not debounce light sensor readings -->
     <integer name="config_lightSensorWarmupTime">250</integer>
 
-    <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
-    <bool name="config_zramWriteback">true</bool>
-
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>49</item>
